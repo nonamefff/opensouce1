@@ -45,7 +45,11 @@ class Control:
         try:
            if (a==0):
                 raise Exception("Base Error")
+<<<<<<< HEAD
             
         except Exception as e:
             return e    
 >>>>>>> e920c3f (modify pow function to check divisor)
+=======
+            
+>>>>>>> e3d5897 (modify pow function to check divisor)
