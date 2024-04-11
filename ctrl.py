@@ -28,6 +28,6 @@ class Control:
           try:
             if(b==0):
                 raise Exception("Divisor Error")
-        return a/b
+
     def pow(self, a, b):
         return pow(a, b)    
