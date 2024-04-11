@@ -38,5 +38,14 @@ class Control:
         return a/b
     
     def pow(self, a, b):
+<<<<<<< HEAD
         return pow(a, b)
     
+=======
+        try:
+           if (a==0):
+                raise Exception("Base Error")
+            
+        except Exception as e:
+            return e    
+>>>>>>> e920c3f (modify pow function to check divisor)
